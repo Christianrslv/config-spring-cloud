@@ -9,6 +9,8 @@ spring:
         git:
           uri: https://github.com/Christianrslv/config-spring-cloud
           search-paths: config/
+          default-label: master
+
 server:
   port: 8888
 management:
