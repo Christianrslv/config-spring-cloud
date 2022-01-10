@@ -1,6 +1,8 @@
 spring:
   application:
     name: centralized-configuration-server
+  profiles:
+    active: local,development,production
   cloud:
     config:
       server:
